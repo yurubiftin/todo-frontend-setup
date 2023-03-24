@@ -6,7 +6,7 @@ function CreateUser() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    
+
 
     // Send a create user request to the server
     fetch('/api/users', {
@@ -35,6 +35,7 @@ function CreateUser() {
       </label>
       <br />
       <label>
+        
         Password:
         <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
       </label>
