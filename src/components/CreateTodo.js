@@ -6,6 +6,7 @@ function CreateTodo() {
 
   function handleSubmit(event) {
     event.preventDefault();
+    
 
     fetch('/api/todos', {
       method: 'POST',
