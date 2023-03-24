@@ -6,6 +6,7 @@ function CreateUser() {
 
   function handleSubmit(event) {
     event.preventDefault();
+    
 
     // Send a create user request to the server
     fetch('/api/users', {
